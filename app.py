@@ -84,7 +84,7 @@ st.markdown("<h6 style='text-align: center; color: black;'>💬 Talk to your AI 
 def get_chat_message_history(session_id):
     return SQLChatMessageHistory(
         session_id=session_id,
-        connection="sqlite:///C:/Users/user/Downloads/Datasets/Datasets/AI_DataScience_Tutor/SQL_database/sqlite.db",
+        connection="sqlite:///SQL_database/sqlite.db",
     )
 
 # Chat prompt template
