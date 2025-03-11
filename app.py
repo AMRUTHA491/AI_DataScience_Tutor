@@ -18,7 +18,7 @@ api_key = os.getenv("API_KEY")
 st.set_page_config(page_title="AI Data Science Tutor", layout="wide")
 
 # Background Image Setup
-local_image_path = r"C:\Users\user\Downloads\Datasets\Datasets\AI_DataScience_Tutor\white_background.jpg"
+local_image_path = "white_background.jpg"
 
 def get_base64_image(image_path):
     with open(image_path, "rb") as img_file:
